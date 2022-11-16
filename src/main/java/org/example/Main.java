@@ -38,11 +38,11 @@ public class Main {
         System.out.println(float1 * float2);
 
         if (character1 > character2) {
-            System.out.println("character1 больше character2");
+            System.out.println("character1 more then character2");
         } else if (byte1 < byte2) {
             System.out.println("byte1 more then byte2");
         } else if ((character1 > character2) && (byte1 < byte2)) {
-            System.out.println("character1 больше character2 и byte1 больше byte2");
+            System.out.println("character1 more then character2 and byte1 more then byte2");
         } else if ((character1 > character2) || (byte1 < byte2)) {
             System.out.println("One of options is true");
         }
